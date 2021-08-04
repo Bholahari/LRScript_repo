@@ -1,0 +1,74 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=S01_XCM_MVPCC_LF.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2020
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2020.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2020.0.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="S01_XCM_MVPCC_LF_TR01_Launch_URL__*delimiter*__S01_XCM_MVPCC_LF_TR02_Perform_Login__*delimiter*__S01_XCM_MVPCC_LF__*delimiter*__S01_XCM_MVPCC_LF_TR03_Utilities__*delimiter*__S01_XCM_MVPCC_LF_TR04_ManageCustomGridSettings__*delimiter*__S01_XCM_MVPCC_LF_TR05_MyViewTab_SelecttheFields&Clickon_SaveforMyView&SearchButton__*delimiter*__S01_XCM_MVPCC_LF_TR06_Clickon_MyView__*delimiter*__S01_XCM_MVPCC_LF_TR07_ClickonView&SelecttheRequiredViewName__*delimiter*__S01_XCM_MVPCC_LF_TR08_Clickon ClientName__*delimiter*__S01_XCM_MVPCC_LF_TR09_Clickon NumbersUnder_HeadingofPts__*delimiter*__S01_XCM_MVPCC_LF_TR10_Clickon NumbersUnder_HeadingofCkl__*delimiter*__S01_XCM_MVPCC_LF_TR11_Clickon NumbersUnder_HeadingofDtl__*delimiter*__S01_XCM_MVPCC_LF_TR12_Logout"
+[StateManagement]
+LastReplayStatus=3
+[ActiveReplay]
+LastReplayedRunName=
+ActiveRunName=
+[Transactions]
+S01_XCM_MVPCC_LF_TR01_Launch_URL=
+S01_XCM_MVPCC_LF_TR02_Perform_Login=
+S01_XCM_MVPCC_LF=
+S01_XCM_MVPCC_LF_TR03_Utilities=
+S01_XCM_MVPCC_LF_TR04_ManageCustomGridSettings=
+S01_XCM_MVPCC_LF_TR05_MyViewTab_SelecttheFields&Clickon_SaveforMyView&SearchButton=
+S01_XCM_MVPCC_LF_TR06_Clickon_MyView=
+S01_XCM_MVPCC_LF_TR07_ClickonView&SelecttheRequiredViewName=
+"S01_XCM_MVPCC_LF_TR08_Clickon ClientName"=
+"S01_XCM_MVPCC_LF_TR09_Clickon NumbersUnder_HeadingofPts"=
+"S01_XCM_MVPCC_LF_TR10_Clickon NumbersUnder_HeadingofCkl"=
+"S01_XCM_MVPCC_LF_TR11_Clickon NumbersUnder_HeadingofDtl"=
+S01_XCM_MVPCC_LF_TR12_Logout=

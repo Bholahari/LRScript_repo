@@ -1,0 +1,77 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=S17_XCM_SBTDR_SF.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2021
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2021.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2020.0.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+Login=Login.c
+CommonAction=CommonAction.c
+Logout=Logout.c
+ClickRun1=ClickRun1.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=1
+Login=1
+CommonAction=1
+Logout=1
+ClickRun1=1
+vuser_end=1
+[Recorded Actions]
+vuser_init=0
+Login=0
+CommonAction=0
+Logout=0
+ClickRun1=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Login=1
+CommonAction=1
+Logout=1
+ClickRun1=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Login=cci
+CommonAction=cci
+Logout=cci
+ClickRun1=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="S19_XCM_SBTDR_SF"
+[StateManagement]
+LastReplayStatus=2
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+S19_XCM_SBTDR_SF=
