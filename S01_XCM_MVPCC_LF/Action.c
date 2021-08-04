@@ -1,5 +1,7 @@
 Action()
 {
+	
+	//adding a new line in the script
 int x,i,j,z;
 	web_revert_auto_header("X-Requested-With");
 
